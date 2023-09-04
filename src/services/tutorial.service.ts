@@ -2,31 +2,6 @@ import ITutorialData from "../types/tutorial.type";
 import { getDatabase, ref, push, update, remove } from "firebase/database";
 import { initializeApp } from "firebase/app";
 
-// const db = firebase.database().ref("/tutsorials"); // Use database() to get a reference
-// const TutorialDataService = {
-//   getAll: () => {
-//     return db;
-//   },
-
-//   create: (tutorial: ITutorialData) => {
-//     return db.push(tutorial);
-//   },
-
-//   update: (key: string, value: any) => {
-//     return db.child(key).update(value);
-//   },
-
-//   delete: (key: string) => {
-//     return db.child(key).remove();
-//   },
-
-//   deleteAll: () => {
-//     return db.remove();
-//   },
-// };
-
-// export default TutorialDataService;
-
 const firebaseConfig = {
   apiKey: "abcd",
   authDomain: "crud-fa54c.firebaseapp.com",
